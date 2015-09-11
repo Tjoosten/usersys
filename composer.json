@@ -1,0 +1,21 @@
+{
+    "name": "qumonto/usersys",
+    "description": "Configurable user management system for laravel.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vijay Kumar",
+            "email": "nvijaykumar2012@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Qumonto\\UserSys\\" : "src/"
+        }
+    },
+    
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support" : "~5"
+    }
+}
